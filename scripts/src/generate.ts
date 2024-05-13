@@ -1,4 +1,5 @@
-import { emptyDir, ensureDir, pascalCase } from "../../src/deps.ts";
+import { pascalCase } from "https://deno.land/x/case@v2.1.0/mod.ts";
+import { emptyDir, ensureDir } from "https://deno.land/std@0.67.0/fs/mod.ts";
 import { APIMethodNode } from "./api-method-node.ts";
 import { getPublicAPIMethods } from "./public-api-methods.ts";
 
